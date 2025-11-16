@@ -1,5 +1,5 @@
 
-module ALU_Decoder(ALUOp,funct3,funct7,op,ALUControl);
+module ALU_Decoder(ALUOp,funct3,funct7,op,ALUControl);//just to verify
 
     input [1:0]ALUOp;
     input [2:0]funct3;
