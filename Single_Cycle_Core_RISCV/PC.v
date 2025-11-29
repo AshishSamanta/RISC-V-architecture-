@@ -12,5 +12,5 @@ module PC_Module(clk,rst,PC,PC_Next);
             PC <= {32{1'b0}};
         else
             PC <= PC_Next;
-    end
-endmodule
+    endPC
+endmodule // nothing just move the program counter (PC) to the next program counter

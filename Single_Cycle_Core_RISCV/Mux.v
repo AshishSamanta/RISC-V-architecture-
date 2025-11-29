@@ -8,4 +8,4 @@ module Mux (a,b,s,c);
 
     assign c = (~s) ? a : b ;
     
-endmodule
+endmodule // simple 2:1 mux 

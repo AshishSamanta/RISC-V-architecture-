@@ -7,4 +7,4 @@ module PC_Adder (a,b,c);
 
     assign c = a + b;
     
-endmodule
+endmodule // add the 32 bit mer=iry address of one point to another point to get to specifed location for PC
